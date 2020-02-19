@@ -1,8 +1,8 @@
 exports.seed = function(knex) {
   const cars = [
-    { VIN: 1001, make: "Nissan", mileage: 0 },
-    { VIN: 2002, make: "Chevy", mileage: 0 },
-    { VIN: 3003, make: "Honda", mileage: 0 }
+    { VIN: 1111, make: "Nissan", model: "Sentra", mileage: 0 },
+    { VIN: 2222, make: "Chevy", model: "Camaro", mileage: 0 },
+    { VIN: 3333, make: "Honda", model: "Accord", mileage: 0 }
   ];
   // Deletes ALL existing entries
   return knex("cars")

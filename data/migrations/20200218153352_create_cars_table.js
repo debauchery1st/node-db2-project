@@ -4,8 +4,11 @@
 exports.up = function(knex) {
   return knex.schema.createTable("cars", tbl => {
     tbl.increments();
-    tbl.string("VIN", 256);
-    tbl.string("make", 256);
+    tbl.string("VIN", 256).notNullable();
+    tbl.string("make", 256).notNullable();
+    tbl.string("model", 192).notNullable();
+    tbl.string("status");
+    tbl.string("transmission");
     tbl.float("mileage");
   });
 };
