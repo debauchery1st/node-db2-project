@@ -30,10 +30,10 @@ Follow these steps for completing your project.
 The client for this API is a car dealer who has provided the following specs:
 
 - ✓ The critical information for each car is the VIN, make, model, and mileage.
-- They also track transmission type and status of the title (clean, salvage, etc.), but this information is not always immediately known.
+- ✓ They also track transmission type and status of the title (clean, salvage, etc.), but this information is not always immediately known.
 
 ## Stretch Problems
 
-- Add seed data to the database using `knex seeds`
-- Add `UPDATE` and `DELETE` operations to your API.
+- ✓ Add seed data to the database using `knex seeds`
+- ✓ Add `UPDATE` and `DELETE` operations to your API.
 - Write a schema file for a `sales` table. This table should track information on the sale of each car. You may wish to research `foreign keys` in order to link each sale to the entry in `cars` which sold.
